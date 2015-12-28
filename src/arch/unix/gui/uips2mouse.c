@@ -43,7 +43,7 @@ ui_menu_entry_t ps2_mouse_submenu[] = {
     { N_("Grab mouse events"), UI_MENU_TYPE_TICK,
       (ui_callback_t)toggle_Mouse, NULL, NULL,
       KEYSYM_m, UI_HOTMOD_META },
-    UI_MENU_ENTRY_LIST_END
+    { NULL }
 };
 
 ui_menu_entry_t ps2_mouse_menu[] = {
