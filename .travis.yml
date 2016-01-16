@@ -3,7 +3,7 @@ language: c++
 before_install:
  - sudo apt-get build-dep vice
 
-script:
+install:
  - ./autogen.sh
  - ./configure --enable-gnomeui --enable-ethernet --enable-fullscreen
  - make
