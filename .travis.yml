@@ -1,10 +1,10 @@
-language: c++
+language: c
 
 compiler: clang
 
 before_install:
  - sudo apt-get update
- - sudo apt-get install -y autoconf autotools-dev bison debhelper dpkg-dev flex libasound2-dev libavformat-dev libgtk2.0-dev libgtkglext1-dev libieee1284-3-dev libjpeg-dev libpng-dev libpulse-dev libreadline-dev libswscale-dev libtwolame-dev libvte-dev xfonts-utils libc++-dev
+ - sudo apt-get install -y autoconf autotools-dev bison debhelper dpkg-dev flex libasound2-dev libavformat-dev libgtk2.0-dev libgtkglext1-dev libieee1284-3-dev libjpeg-dev libpng-dev libpulse-dev libreadline-dev libswscale-dev libtwolame-dev libvte-dev xfonts-utils libclang-3.5-dev
 
 install:
  - ./autogen.sh
