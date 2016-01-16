@@ -26,9 +26,8 @@ addons:
             - libtwolame-dev
             - libvte-dev
             - xfonts-utils
-            - libc6-dev
-            - libstdc++6-4.6-dev
-
+            - libstdc++-5-dev
+            - lib32stdc++6
 language: c
 
 before_install:
