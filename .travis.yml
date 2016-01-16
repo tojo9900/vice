@@ -28,6 +28,7 @@ addons:
             - xfonts-utils
             - libstdc++-5-dev
             - lib32stdc++6
+            - libc++-dev
 language: c
 
 before_install:

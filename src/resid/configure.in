@@ -106,7 +106,7 @@ AC_PATH_PROG([PERL], [perl])
 dnl Checks for libraries.
 
 dnl Checks for header files.
-# AC_CHECK_HEADER([math.h], [], AC_MSG_ERROR([missing math.h]))
+AC_CHECK_HEADER([math.h], [], AC_MSG_ERROR([missing math.h]))
 
 dnl Checks for typedefs, structures, and compiler characteristics.
 AC_CHECK_SIZEOF([int], [4])
