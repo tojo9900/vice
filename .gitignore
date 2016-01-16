@@ -1625,3 +1625,8 @@ src/plus4/plus4io.o
 /src/arch/unix/gui/uisampler.o
 /src/joyport/sampler4bit.o
 /src/userport/userport.o
+/src/lib/libx264/conftest.log
+/src/lib/libx264/conftest
+/src/lib/libx264/conftest.asm
+/src/lib/libx264/conftest.c
+/src/lib/libx264/config.h
