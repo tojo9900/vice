@@ -19,6 +19,8 @@ addons:
             - libgtkglext1-dev
             - libieee1284-3-dev
             - libjpeg-dev
+            - libpcap0.8
+            - libpcap0.8-dev
             - libpng-dev
             - libpulse-dev
             - libreadline-dev
@@ -30,6 +32,7 @@ addons:
             - lib32stdc++6
             - libc++-dev
             - texinfo
+            - yasm
 
 language: c
 
