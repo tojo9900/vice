@@ -29,6 +29,8 @@ addons:
             - libstdc++-5-dev
             - lib32stdc++6
             - libc++-dev
+            - texinfo
+
 language: c
 
 before_install:
@@ -36,7 +38,8 @@ before_install:
  - if [ "$CXX" = "g++" ]; then export CXX="g++-5" CC="gcc-5"; fi
  - if [ "$CXX" = "clang++" ]; then export CXX="clang++-3.7" CC="clang-3.7"; fi
 
-install:
+script:
+
  - ./autogen.sh
  - ./configure --enable-gnomeui --enable-ethernet --enable-fullscreen
  - make
