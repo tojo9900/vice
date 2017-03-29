@@ -12,6 +12,7 @@ addons:
             - bison
             - debhelper
             - dpkg-dev
+            - dos2unix
             - flex
             - libasound2-dev
             - libavformat-dev
@@ -33,6 +34,7 @@ addons:
             - libc++-dev
             - texinfo
             - yasm
+            - xa65
 
 language: c
 
